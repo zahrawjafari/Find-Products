@@ -1,0 +1,36 @@
+.v1{
+    text-align: center;
+    font-family: Vazirmatn;
+    font-size: 20px;
+    color: #181725;
+    padding: 10px 30px;
+}
+v2{ width: 18px;
+height: 18px;
+color: #181B19;
+
+
+}
+.v3{
+    border: none;
+    background-color: #F2F3F2;
+    width: 364px;
+height: 51px;
+border-radius: 15px;
+}
+.input{
+    position: relative;
+    padding: -15px 30px;
+}
+.v4{display: flex;
+    padding: 10px 30px;
+gap: 40px;
+}
+.v5{
+ background: #53B1751A;
+ border: 1px solid #53B175B2
+ border-radius: 10px;
+}
+.v6{
+
+}
