@@ -2,10 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  font-family: "vazirmatn", sans-serif;
 }
 .body{
     display: flex;
     justify-content: center;
+    padding: 0px 10px;
+}
+.header{
+      padding: 56px 25px 20px 25px;
 }
 .v1{
     text-align: center;
@@ -14,36 +19,113 @@
     color: #181725;
     padding: 40px 30px;
 }
+.main{
+      display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px 25px 30px 25px;
+
+}
 .input{
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  justify-content flex-star;
+  align-items: start;
   width: 364px;
   height: 51px;
   background-color: #F2F3F2;
   border-radius: 10px;
-    padding: 0px 30px;
-    gap: 40px;
+      padding: 16.18px 17.18px 15px;
 }
-v2{width: 18px;
+v2{
+    left: 20px;
+    top: 50px;
+    width: 18px;
     height: 18px;
-    margin-right: 10px;
+    padding: 0px 20px;
 }
-.v3{ position: relative;
-
-    border: none;
-    outline: none;
-    background: transparent;
-
+.v3{
+     border: none;
+  outline: none;
+  background-color: #f2f3f2;
+  flex: 1;
+  padding-right: 20px;
+  padding-left: 9.81px ;
+  width: 100%;
 }
-.v4{display: flex;
-    padding: 90px 30px;
-gap: 40px;
+.main{
+     display: flex;
+  flex-direction: column;
+  padding: 20px 25px 30px 25px;
+}
+
+.v4{
+   background-color: #53b1751a;
+  border: 1px solid #53b175b2;
+  border-radius: 10px;
+  padding: 27px 10px;
+  width: 174px;
+height: 190px;
+top: 176px;
+}
+.Products{
+display: grid;
+grid-template-columns: repeat(2,2fr);
+text-align: center;
+padding: 20px 37px;
+gap: 20px 10px;
 }
 .v5{
- background: #53B1751A;
- border: 1px solid #53B175B2
- border-radius: 10px;
+    
+   background-color: #F8A44C1A;
+  border: 1px solid #F8A44CB2;
+  border-radius: 10px;
+  padding: 27px 10px;
+  width: 174px;
+height: 190px;
+top: 176px;
 }
 .v6{
-
+   background-color: #F7A59340;
+  border: 1px solid #F7A593;
+  border-radius: 10px;
+  padding: 27px 10px;
+  width: 174px;
+height: 190px;
+top: 176px;
+}
+.v7{
+      background-color: #D3B0E040;
+  border: 1px solid #D3B0E0;
+  border-radius: 10px;
+  padding: 27px 10px;
+  width: 174px;
+height: 190px;
+top: 176px;
+}
+.v8{
+      background-color: #FDE59840;
+  border: 1px solid #FDE598;
+  border-radius: 10px;
+  padding: 27px 10px;
+  width: 174px;
+height: 190px;
+top: 176px;
+}
+.v9{
+    background-color: #B7DFF540;
+  border: 1px solid #B7DFF5;
+  border-radius: 10px;
+  padding: 27px 10px;
+  width: 174px;
+height: 190px;
+top: 176px;
+}
+.header{
+    padding: 27px 10px;
+}
+.v10{
+    padding: 20px 32px;
+    display: flex;
+    gap: 68px;
 }
